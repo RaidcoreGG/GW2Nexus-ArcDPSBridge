@@ -1,0 +1,18 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
+  "name": "gw2-nexus-arcpds-bridge",
+  "version-string": "1.0.0",
+  "dependencies": [
+    "magic-enum",
+    "nlohmann-json",
+    "curl",
+    {
+      "name": "nexus",
+      "default-features": false
+    },
+    {
+      "name": "arcdps-extension",
+      "default-features": false
+    }
+  ]
+}
